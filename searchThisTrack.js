@@ -20,14 +20,9 @@ var spotify = new Spotify({
        return console.log('Error occurred: ' + err);
      }
     
-   // console.log(data); 
-   // console.log(data.tracks);
+  
    var myJSON = JSON.stringify(data);
-   // console.log(myJSON);
-   // const myAlbum  = JSON.stringify(data.album);
-   // data.tracks.items.forEach(function(myAlbum){
-   //  console.log(myAlbum.artist);
-   // });
+   
    
    data.tracks.items.forEach(function(myTrack){
     // ha ha 

@@ -6,6 +6,7 @@ const myEnv = require('dotenv').config();
 const myFS = require('fs');
 const myKeys = require('./keys.js');
 const mySearchTrack = require('./searchThisTrack.js');
+const concert_this = require('./concert_this.js');
 
 const regexStr = /,+ +/; // this regex parses the string with multiple sequential , and space i.e. ", " and ",, " and ",,  " are same as ","
 
@@ -35,6 +36,10 @@ switch (process.argv[2]) {
    break;
   case 'concert-this':
    console.log('Here');
+   
+   // let yy = process.argv[3].replace(" ","+");
+   process.argv[3] = process.argv[3].replace(" ","+");
+   concert_this.aboutThisConcert(process.argv[3]);
    break;
   default:
    console.log('need help ? ' + process.argv[2]);
