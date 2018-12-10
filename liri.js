@@ -45,7 +45,14 @@ switch (process.argv[2]) {
   case 'movie-this':
    console.log('Here looking for movie');
    // let yy = process.argv[3].replace(" ","+");
-   process.argv[3] = process.argv[3].replace(" ","+");
+   // process third parameters exparting a name
+   // if nothing change it to Mr. Nobody
+
+   if ( process.argv.lngth === 3 ) 
+    { process.argv[3] = process.argv[3].replace(" ","+"); }
+   else { process.argv[3] = "Mr. NoBody" ;}
+
+   if ( process.argv[3] === "\|+" ) { process.argv[3] = "Mr. Nobody"; }
    movie_this.aboutThisMovie(process.argv[3]);
    break;
   default:
