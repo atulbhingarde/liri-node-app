@@ -7,6 +7,8 @@ const myFS = require('fs');
 const myKeys = require('./keys.js');
 const mySearchTrack = require('./searchThisTrack.js');
 const concert_this = require('./concert_this.js');
+const movie_this = require('./movie_this.js');
+
 
 const regexStr = /,+ +/; // this regex parses the string with multiple sequential , and space i.e. ", " and ",, " and ",,  " are same as ","
 
@@ -35,11 +37,16 @@ switch (process.argv[2]) {
    mySearchTrack.searchTrack(process.argv[3]);
    break;
   case 'concert-this':
-   console.log('Here');
-   
+   console.log('Here looking for concert');
    // let yy = process.argv[3].replace(" ","+");
    process.argv[3] = process.argv[3].replace(" ","+");
    concert_this.aboutThisConcert(process.argv[3]);
+   break;
+  case 'movie-this':
+   console.log('Here looking for movie');
+   // let yy = process.argv[3].replace(" ","+");
+   process.argv[3] = process.argv[3].replace(" ","+");
+   movie_this.aboutThisMovie(process.argv[3]);
    break;
   default:
    console.log('need help ? ' + process.argv[2]);

@@ -24,19 +24,20 @@ var spotify = new Spotify({
    var myJSON = JSON.stringify(data);
    
    
-   data.tracks.items.forEach(function(myTrack){
-    // ha ha 
-    // console.log(myTrack.preview_url+" "+myTrack.name+" "+myTrack.popularity+" "+myTrack.duration_ms," " + myTrack.album);
-    numArtists=myTrack.album.artists.length;
-    for(nArtists=0;nArtists<numArtists;nArtists++) {
+   data.tracks.items.forEach(function(myTrack)
+    {
+     // ha ha 
+     // console.log(myTrack.preview_url+" "+myTrack.name+" "+myTrack.popularity+" "+myTrack.duration_ms," " + myTrack.album);
+     numArtists=myTrack.album.artists.length;
+     for(nArtists=0;nArtists<numArtists;nArtists++) {
      console.log("\n"+myTrack.album.artists[nArtists].name);
-    }
-    console.log("track name " + myTrack.name+"\n"+
+      } 
+     console.log("track name " + myTrack.name+"\n"+
                 "album name " + myTrack.album.name+"\n"+
                 "album url " + myTrack.album.external_urls.spotify+"\n"+
                 "preview url " + myTrack.preview_url+"\n"+
                 "track url " + myTrack.external_urls.spotify);
     
-   });
+    });
    });}
 }
