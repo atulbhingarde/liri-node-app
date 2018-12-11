@@ -7,11 +7,15 @@ Details are described as under .
 
 ## basic command format is **_node liri.js operator \[parameter\]_**
 
-* _node liri.js spotify-this-song_ **_"I want it that way"_**![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
+* _node liri.js spotify-this-song_ **_"My heart will go"_**![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 
 * _node liri.js concert-this_ **_"Rod Stewart"_** ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 
-* _node liri.js do-what-it-says_ 
+* _node liri.js do-what-it-says_ ![Alt text](/screen_shots/soptify-this-song.png?raw=true "spotify-this-song")
+
+* _node liri.js concert__this_ ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
+
+* _node liri.js movie__this_ ![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
 * Item 2a	
 * Item 2b
 * Item 2ba
@@ -41,7 +45,7 @@ node liri.js movie-this Titanic
 
 
 
-![Alt text](/screen_shots/soptify-this-song.png?raw=true "spotify-this-song")
+
 
 ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 
