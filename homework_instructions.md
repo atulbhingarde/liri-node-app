@@ -13,7 +13,7 @@ Details are described as under .
 
 * _node liri.js do-what-it-says_ ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 
-* _node liri.js movie__this_ ![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
+* _node liri.js movie__this_ **_"Titanic"_** ![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
 * Item 2a	
 * Item 2b
 * Item 2ba
