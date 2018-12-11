@@ -11,9 +11,7 @@ Details are described as under .
 
 * _node liri.js concert-this_ **_"Rod Stewart"_** ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 
-* _node liri.js do-what-it-says_ ![Alt text](/screen_shots/soptify-this-song.png?raw=true "spotify-this-song")
-
-* _node liri.js concert__this_ ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
+* _node liri.js do-what-it-says_ ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 
 * _node liri.js movie__this_ ![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
 * Item 2a	
