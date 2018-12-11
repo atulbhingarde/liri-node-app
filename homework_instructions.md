@@ -1,7 +1,7 @@
 
 # The liri app allows one to - 
 
-**_basic command format is node liri.js opration parameter 
+_basic command format is node liri.js opration parameter_
 
 	node liri.
 
