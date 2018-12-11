@@ -1,10 +1,24 @@
 
-The liri app allows one to - 
+# The **_liri_** app 
 
-basic command format is node liri.js opration parameter 
+## **_Liri_** is commad line node based app that allows your to query information related to the artist, c+oncert, music, songs.
 
-	node liri.
+Details are described as under . 
 
+## basic command format is **_node liri.js operator \[parameter\]_**
+
+* _node liri.js spotify-this-song_ **_"I want it that way"_**![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
+
+* _node liri.js concert-this_ **_"Rod Stewart"_** ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
+
+* _node liri.js do-what-it-says_ 
+* Item 2a	
+* Item 2b
+* Item 2ba
+
+1. Item 1
+2. Item 2
+2. Item 2a
 1 only one parameter for the command read and process file for various task ( curretly one at a time b that it can do which are described as under.
 2 accespt two parameters ( total 4 ) from command line first is the operation and secons is operand
 node liri.js spotify-this-song "I want it that way"
@@ -26,7 +40,6 @@ echo "3 -----------------------"
 node liri.js movie-this Titanic
 
 
-![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 
 ![Alt text](/screen_shots/soptify-this-song.png?raw=true "spotify-this-song")
 
