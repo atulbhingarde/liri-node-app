@@ -1,0 +1,3 @@
+--2018-12-09 00:14:42--  https://www.omdbapi.com/?apikey=f1827804
+Resolving www.omdbapi.com (www.omdbapi.com)... failed: Name or service not known.
+wget: unable to resolve host address ‘www.omdbapi.com’
