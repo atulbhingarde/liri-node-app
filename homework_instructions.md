@@ -1,6 +1,40 @@
 
-![Alt text](/screen_shots/concert.bmp?raw=true "concert-this")
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+The liri app allows one to - 
+
+basic command format is node liri.js opration parameter 
+
+	node liri.
+
+1 only one parameter for the command read and process file for various task ( curretly one at a time b that it can do which are described as under.
+2 accespt two parameters ( total 4 ) from command line first is the operation and secons is operand
+node liri.js spotify-this-song "I want it that way"
+echo "2 -----------------------"
+node liri.js concert-this "Rod Stewart"
+echo "3 -----------------------"
+node liri.js movie-this Titanic
+echo "4 -----------------------"
+
+
+command is node liri.js do-what-it-says 
+
+command is 
+
+node liri.js spotify-this-song "I want it that way"
+echo "2 -----------------------"
+node liri.js concert-this "Rod Stewart"
+echo "3 -----------------------"
+node liri.js movie-this Titanic
+
+
+![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
+
+![Alt text](/screen_shots/soptify-this-song.png?raw=true "spotify-this-song")
+
+![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
+
+![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
+
+
 # LIRI Bot
 
 ### Overview
