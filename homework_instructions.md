@@ -7,7 +7,7 @@ Details are described as under .
 
 ## basic command format is **_node liri.js operator \[parameter\]_**
 
-* _node liri.js spotify-this-song_ **_"My heart will go"_** ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
+* _node liri.js spotify-this-song_ **_"My heart will go"_** ![Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")
 
 * _node liri.js concert-this_ **_"Rod Stewart"_** ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 
