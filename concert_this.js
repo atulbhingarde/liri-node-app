@@ -18,7 +18,8 @@ module.exports =
      res.body.forEach(function(myOffers){
                        console.log("\n Venue Name  : " + myOffers.venue.name+
                                    "\n Venue Location : "+myOffers.venue.country+
-                                   "\n venue city : "+myOffers.venue.city);
+                                   "\n venue city : "+myOffers.venue.city+
+                                   "\n date "+myOffers.datetime);
 
                   });
 
