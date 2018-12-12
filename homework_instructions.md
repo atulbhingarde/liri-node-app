@@ -1,5 +1,5 @@
 
-# The **_liri_** app 
+# The **_liri_** app Atul Bhingarde
 
 ## **_Liri_** is commad line node based app that allows your to query information related to the artist, concert, music, songs.
 
