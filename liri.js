@@ -13,19 +13,7 @@ const movie_this = require('./movie_this.js');
 const regexStr = /,+ +/; // this regex parses the string with multiple sequential , and space i.e. ", " and ",, " and ",,  " are same as ","
 
 var myWords = Array(); 
-// console.log(myEnv);
-// console.log(myKeys);
-// now set up the spotify object with keys 
-// const nspotify = new mySpotify(myKeys.spotify);
-// console.log(myKeys.spotify.id);
 
-// set the spotify api with necessary id and credentials 
-/* var Spotify = require('node-spotify-api');
- 
-var spotify = new Spotify({
-  id: myKeys.spotify.id,
-  secret: myKeys.spotify.secret
-});*/
 
 switch (process.argv[2]) {
   case 'do-what-it-says':
@@ -47,13 +35,13 @@ switch (process.argv[2]) {
    // let yy = process.argv[3].replace(" ","+");
    // process third parameters exparting a name
    // if nothing change it to Mr. Nobody
+   console.log("array length" + process.argv.length);
+   if ( process.argv.length === 4 ) 
+    { t = process.argv[3].replace(" ","+"); }
+   else { t = "Mr. NoBody" ;}
 
-   if ( process.argv.lngth === 3 ) 
-    { process.argv[3] = process.argv[3].replace(" ","+"); }
-   else { process.argv[3] = "Mr. NoBody" ;}
-
-   if ( process.argv[3] === "\|+" ) { process.argv[3] = "Mr. Nobody"; }
-   movie_this.aboutThisMovie(process.argv[3]);
+   // if ( process.argv[3] === "\|+" ) { process.argv[3] = "Mr. Nobody"; }
+   movie_this.aboutThisMovie(t);
    break;
   default:
    console.log('need help ? ' + process.argv[2]);
