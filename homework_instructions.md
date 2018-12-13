@@ -44,4 +44,35 @@ _node liri.js do-what-it-says_
 			* Preview Url 
 			* Track Url from Spotify
    
--   _node liri.js movie__this_  **_"Titanic"_**  [![Alt text](https://github.com/atulbhingarde/liri-node-app/raw/master/screen_shots/movie-this.png?raw=true "movie-this")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/movie-this.png?raw=true)
+		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
+_node liri.js spotify-this-song '<song name here>'_  
+![Alt text](/screen_shots/spotify-this-song.png?raw=true "do-what-it-says")
+		* Which displays
+			* Artists name
+			* Track name
+			* Album name
+			* Preview Url 
+			* Track Url from Spotify
+   
+-   _node liri.js movie__this_  **_"Titanic"_**  
+![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")
+		* Which displays
+			* Title of the movie.
+			* Year the movie came out.
+			* IMDB Rating of the movie.
+			* Rotten Tomatoes Rating of the movie.
+			* Country where the movie was produced.
+			* Language of the movie.
+			* Plot of the movie.
+			* Actors in the movie.
+-   _node liri.js movie__this_ 
+![Alt text](/screen_shots/mr_nobody.png?raw=true "mr-nobody")
+		* Which displays
+			* Title of the movie.
+			* Year the movie came out.
+			* IMDB Rating of the movie.
+			* Rotten Tomatoes Rating of the movie.
+			* Country where the movie was produced.
+			* Language of the movie.
+			* Plot of the movie.
+			* Actors in the movie.
