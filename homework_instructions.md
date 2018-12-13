@@ -1,25 +1,47 @@
-# The  **_liri_**  app Atul Bhingarde
+# The  **_liri_**  app 
+## ***Atul Bhingarde***
 
 ## **_Liri_**  is commad line node based app that allows your to query information related to the artist, concert, music, songs.
 
 Details are described as under .
 
  1. Basic command is **_node liri.js operator [parameter]_** where -
- 
-	 * ***node*** is the utility program being used.
+ 	 * ***node*** is the utility program being used.
 	 * liri.js is an utility developed for the purpose as part of this project.
 	 * ***operator*** could be 	 
-		 * *spotify-this-song*
+		 * *spotify-this-song* to locate the song and related information.
 			 * required parameter is *song* 
-*for example to locate the song  _node liri.js spotify-this-song_  **_"My heart will go on"_** 
-[![Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/spotify-this-song.png?raw=true) which displays - 
-artists name
-The songs name
-Preview of the song from spotify
-The album name that song is from
+*for example to locate the song "My heart will go on"
+_node liri.js spotify-this-song_  **_"My heart will go on"_**
+[![Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")]
+which displays - 
+				* artists name
+				*	The songs name
+				*	review of the song from spotify
+				*	The album name that song is from
     
--   _node liri.js concert-this_  **_"Rod Stewart"_**  [![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/concert-this.bmp?raw=true)
-    
--   _node liri.js do-what-it-says_  [![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/do-what-it-says.png?raw=true)
-    
--   _node liri.js movie__this_  **_"Titanic"_**  [![Alt text](/screen_shots/movie-this.png?raw=true "movie-this")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/movie-this.png?raw=true)
+		-   *concert-this* to locate the information about the concert related information based on the ***artist*** or  ***band*** , use command as follows 
+			- _node liri.js concert-this_  **_"Rod Stewart"_**  
+[![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")]
+which displays -
+				- Venue name
+				- Venue 
+					- country
+					- City
+			- _node liri.js concert-this_  **_"Metallica"_**  [![Alt text](https://github.com/atulbhingarde/liri-node-app/raw/master/screen_shots/concert-this.bmp?raw=true "concert-this")](/screen_shots/band.bmp?raw=true)
+which displays -
+				- Venue name
+				- Venue 
+					- Country
+					- City
+		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
+_node liri.js do-what-it-says_  [![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")]
+
+		* Which displays
+			* Artists name
+			* Track name
+			* Album name
+			* Preview Url 
+			* Track Url from Spotify
+   
+-   _node liri.js movie__this_  **_"Titanic"_**  [![Alt text](https://github.com/atulbhingarde/liri-node-app/raw/master/screen_shots/movie-this.png?raw=true "movie-this")](https://github.com/atulbhingarde/liri-node-app/blob/master/screen_shots/movie-this.png?raw=true)
