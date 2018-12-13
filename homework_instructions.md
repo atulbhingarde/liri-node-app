@@ -29,19 +29,19 @@ which displays -
 					- country
 					- City
 			- _node liri.js concert-this_  **_"Metallica"_**  [![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")]
-which displays -
-				- Venue name
-				- Venue 
+				- which displays -
+					- Venue name
+					- Venue 
 					- Country
 					- City
 		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
 			_node liri.js do-what-it-says_  ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 				- Which displays
-				- Artists name
-				- Track name
-				- Album name
-				- Preview Url 
-				- Track Url from Spotify
+					- Artists name
+					- Track name
+					- Album name
+					- Preview Url 
+					- Track Url from Spotify
    
 		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
 _node liri.js spotify-this-song '<song name here>'_  
