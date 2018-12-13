@@ -28,14 +28,14 @@ which displays -
 				- Venue 
 					- country
 					- City
-			- _node liri.js concert-this_  **_"Metallica"_**  [![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")]
+			- _node liri.js concert-this_  **_"Metallica"_**  ![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 				- which displays -
 					- Venue name
 					- Venue 
 					- Country
 					- City
 		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
-			_node liri.js do-what-it-says_  ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
+			- _node liri.js do-what-it-says_  ![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 				- Which displays
 					- Artists name
 					- Track name
