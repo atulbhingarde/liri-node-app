@@ -13,7 +13,7 @@ Details are described as under .
 			 * required parameter is *song* 
 *for example to locate the song "My heart will go on"
 _node liri.js spotify-this-song_  **_"My heart will go on"_**
-Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")
+![Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")
 which displays - 
 				* artists name
 				*	The songs name
