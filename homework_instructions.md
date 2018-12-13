@@ -13,7 +13,7 @@ Details are described as under .
 			 * required parameter is *song* 
 *for example to locate the song "My heart will go on"
 _node liri.js spotify-this-song_  **_"My heart will go on"_**
-[![Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")]
+Alt text](/screen_shots/spotify-this-song.png?raw=true "spotify-this-song")
 which displays - 
 				* artists name
 				*	The songs name
@@ -22,7 +22,7 @@ which displays -
     
 		-   *concert-this* to locate the information about the concert related information based on the ***artist*** or  ***band*** , use command as follows 
 			- _node liri.js concert-this_  **_"Rod Stewart"_**  
-[![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")]
+![Alt text](/screen_shots/concert-this.bmp?raw=true "concert-this")
 which displays -
 				- Venue name
 				- Venue 
@@ -35,8 +35,8 @@ which displays -
 					- Country
 					- City
 		-  *do-what-it-says* to get details for songs listed in the file ***random.txt*** file is "," quoma delimited. command is as follows
-_node liri.js do-what-it-says_  [![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")]
-
+_node liri.js do-what-it-says_  
+![Alt text](/screen_shots/do-what-it-says.png?raw=true "do-what-it-says")
 		* Which displays
 			* Artists name
 			* Track name
