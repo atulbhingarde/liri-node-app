@@ -1,8 +1,5 @@
-// var Spotify = require('node-spotify-api');
-// var BandsInTownEvents = require('bandsintown-events');
-var imdb = require('imdb-api');
+
 const myKeys = require('./keys.js');
-// const https = require('https');
 const request = require('request');
 var omdbApi = require('omdb-client');
 
@@ -10,19 +7,14 @@ module.exports =
 { 
    aboutThisMovie: function aboutThisMovie(thisItem) 
    {
-      
- 
-      
-    
+    // set the url with the key etc and get full details of the movie    
     const MyUrl= 'https://www.omdbapi.com/?apikey='+myKeys.moVie.secret+'&t='+thisItem+'&plot=full&type=movie';
 
 
-    // console.log("|"+MyUrl+"|");
+    console.log("|"+MyUrl+"|");
     request(MyUrl, { json: true }, (err, res ) => {
      if (err) { return console.log(err); }
      var myJSON = JSON.stringify(res.body);
-     // console.log(myJSON.Title);
-     // var yy = res.body; 
      var yy_parsed = JSON.parse(myJSON);
      console.log("\nTitle : "+yy_parsed.Title+"\nYear : "+yy_parsed.Year+
                  "\n Source : "+yy_parsed.Ratings[0].Source+" "+yy_parsed.Ratings[0].Value+
@@ -31,18 +23,10 @@ module.exports =
                  "\n Language: "+yy_parsed.Language +
                  "\n Plot: "+yy_parsed.Plot +
                  "\n Actors: " + yy_parsed.Actors);             
-                 
-     
-     // var myJSON = JSON.parse(yy_parsed);
-     // console.log(myJSON);
-     // console.log(yy_parsed.Ratings.Source);
-     // res.body.forEach(function(myOffers){
-     // console.log("Venue Name  : " + myOffers.venue.name+" Venue Location : "+myOffers.venue.country+" "+myOffers.venue.city);
 
      });
 
 
     
-// https://www.omdbapi.com/?i=tt3896198&apikey=f1827804&t=titanic
-// https://www.omdbapi.com/?apikey=f1827804&t=Titanic
+
 },};

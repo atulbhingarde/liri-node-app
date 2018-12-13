@@ -20,12 +20,12 @@ var myWords = Array();
 // console.log(myKeys.spotify.id);
 
 // set the spotify api with necessary id and credentials 
-var Spotify = require('node-spotify-api');
+/* var Spotify = require('node-spotify-api');
  
 var spotify = new Spotify({
   id: myKeys.spotify.id,
   secret: myKeys.spotify.secret
-});
+});*/
 
 switch (process.argv[2]) {
   case 'do-what-it-says':
