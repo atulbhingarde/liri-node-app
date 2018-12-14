@@ -3,9 +3,9 @@
 
 ## **_Liri_**  is commad line node based app that allows your to query information related to the artist, concert, music, songs.
 
-### One can use the testexec file as a batch file for getting the info  or directly the commands from there 
+### One can use the testexec file as a batch file for getting the info about the commands
 
-#### One needs to prepare the environment by using **_npm install_** 
+#### One needs to prepare the environment by using **_npm install_**
 
 #### define following variables in the environement.
 
