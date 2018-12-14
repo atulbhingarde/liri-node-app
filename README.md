@@ -3,6 +3,18 @@
 
 ## **_Liri_**  is commad line node based app that allows your to query information related to the artist, concert, music, songs.
 
+### One can use the testexec file as a batch file for getting the info  or directly the commands from there 
+
+#### One needs to prepare the environment by using **_npm install_** 
+
+#### define following variables in the environement.
+
+			* movieDbId=<your_id_from_moviedb>
+			* movieDbKey=<your_key_from_moviedb>
+			* SPOTIFY_ID=<your_id_from_sprotify>
+			* SPOTIFY_SECRET=<your_secret_from_spotify>
+
+
 Details are described as under .
 
  1. Basic command is **_node liri.js operator [parameter]_** where -
