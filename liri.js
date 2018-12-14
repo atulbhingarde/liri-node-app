@@ -15,20 +15,20 @@ const regexStr = /,+ +/; // this regex parses the string with multiple sequentia
 var myWords = Array(); 
 
 
-switch (process.argv[2]) {
+switch (process.argv[2].replace('\r',"").replace('\n',"")) {
   case 'do-what-it-says':
-   console.log("so you want " + process.argv[2]);
+   console.log("so you want " + process.argv[2].replace('\r',"").replace('\n',""));
    doWhatItSays();
    break;
   case 'spotify-this-song':
    console.log('Here '+process.argv[3]);
-   mySearchTrack.searchTrack(process.argv[3]);
+   mySearchTrack.searchTrack(process.argv[3].replace('\r',"").replace('\n',""));
    break;
   case 'concert-this':
    console.log('Here looking for concert');
    // let yy = process.argv[3].replace(" ","+");
    process.argv[3] = process.argv[3].replace(" ","+");
-   concert_this.aboutThisConcert(process.argv[3]);
+   concert_this.aboutThisConcert(process.argv[3].replace('\r',"").replace('\n',""));
    break;
   case 'movie-this':
    console.log('Here looking for movie');
@@ -41,7 +41,7 @@ switch (process.argv[2]) {
    else { t = "Mr. NoBody" ;}
 
    // if ( process.argv[3] === "\|+" ) { process.argv[3] = "Mr. Nobody"; }
-   movie_this.aboutThisMovie(t);
+   movie_this.aboutThisMovie(t.replace('\r',"").replace('\n',""));
    break;
   default:
    console.log('need help ? ' + process.argv[2]);

@@ -1,0 +1,10 @@
+#!/bin/bash
+node liri.js do-what-it-says
+echo "1 -----------------------"
+node liri.js spotify-this-song "I want it that way"
+echo "2 -----------------------"
+node liri.js concert-this "Rod Stewart"
+echo "3 -----------------------"
+node liri.js movie-this Titanic
+echo "4 -----------------------"
+node liri.js movie-this
